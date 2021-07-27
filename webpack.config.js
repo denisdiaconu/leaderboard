@@ -7,13 +7,14 @@ module.exports = {
 
     new HtmlWebpackPlugin({
 
-      template: './src/index.html'
+      template: './src/index.html',
     }),
 
   ],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '/to-do-list/',
     clean: true,
   },
   devServer: {
