@@ -46,15 +46,15 @@ h1 {
   justify-content: right;
 }
 
-.scoreInput1 {
+#name {
   height: 30px;
 }
 
-.scoreInput2 {
+#score {
   height: 30px;
 }
 
-.addScore {
+#addScore {
   width: 100px;
   font-weight: bold;
   background-color: white;
