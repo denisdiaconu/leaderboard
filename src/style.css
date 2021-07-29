@@ -23,7 +23,24 @@ h1 {
 #scoresContainer {
   width: 80%;
   display: flex;
-  flex-flow: initial;
+  flex-direction: column;
+}
+
+ul {
+  border: 2px solid black;
+  width: 100%;
+  margin-top: 30px;
+}
+
+ul > li {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  text-transform: capitalize;
+}
+
+#scoreList {
+  display: flex;
   justify-content: center;
 }
 
@@ -46,15 +63,15 @@ h1 {
   justify-content: right;
 }
 
-.scoreInput1 {
+#name {
   height: 30px;
 }
 
-.scoreInput2 {
+#score {
   height: 30px;
 }
 
-.addScore {
+#addScore {
   width: 100px;
   font-weight: bold;
   background-color: white;

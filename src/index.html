@@ -13,7 +13,7 @@
         <div id="scoresContainer">
             <div id="scoresTitle">
                 <h2>Recent scores</h2>
-                <button type="submit">Refresh</button>
+                <button type="submit" id="getScoreListBtn">Refresh</button>
             </div>
             <div id="scoreList">
             </div>
@@ -23,10 +23,10 @@
                 <h2>Add your score</h2>
             </div>
             <div id="scoreInput">
-                <input type="text" class="scoreInput1" placeholder="Your name" required>
-                <input type="text" class="scoreInput2" placeholder="Your score" required>
+                <input type="text" id="name" placeholder="Your name" required>
+                <input type="number" id="score" required>
                 <div>
-                    <button type="submit" class="addScore">Submit</button>
+                    <button type="submit" id="addScore">Submit</button>
                 </div>
             </div>
         </div>
